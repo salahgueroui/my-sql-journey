@@ -10,3 +10,17 @@ Retrieve customers with a score not equal to 0.
 select *
 from customers
 where score != 0
+
+-------------------------------------------------------------
+/*
+Video: Course 4 – timestamp 14:04
+----------------------------------------
+-----SQL-TASK-02-----
+Retrieve customers from Germany.
+*/
+
+------My-solution-----
+
+select *
+from customers
+where country = 'Germany'
