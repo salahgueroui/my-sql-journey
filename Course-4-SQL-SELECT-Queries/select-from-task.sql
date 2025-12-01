@@ -8,7 +8,7 @@ Retrieve All Customer Data.
 
 select *
 from customers
-
+-------------------------------------------------------
 /*
 Video: Course 4 – timestamp 6:13
 -----SQL-TASK-02-----
