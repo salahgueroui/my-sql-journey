@@ -38,3 +38,17 @@ SELECT top 2 *
 FROM customers
 order by score
 
+---------------------------------------------------------------
+/*
+Video: Course 4 – timestamp 48:37
+----------------------------------------
+-----SQL-TASK-----
+Get the two most recent orders.
+*/
+
+------My-solution-----
+
+SELECt top 2 *
+FROM orders
+order by order_date desc
+
