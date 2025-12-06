@@ -24,3 +24,17 @@ SELECT top 3 *
 FROM customers
 order by score desc
 
+-------------------------------------------------------------
+/*
+Video: Course 4 – timestamp 48:11
+----------------------------------------
+-----SQL-TASK-----
+Retrieve the lowest 2 customers based on the score.
+*/
+
+------My-solution-----
+
+SELECT top 2 *
+FROM customers
+order by score
+
