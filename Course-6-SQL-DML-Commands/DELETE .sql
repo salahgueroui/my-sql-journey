@@ -21,5 +21,7 @@ Delete all data from the persons table
 
 -------- My-Solution --------
 
+truncate table persons
+
 
 
