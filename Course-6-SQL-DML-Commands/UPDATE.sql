@@ -11,3 +11,17 @@ Change the score of customer with ID 6 to 0.
 UPDATE customers
 SET SCORE = 0
 WHERE id=6
+
+--------------------------------------------
+/*
+Video: Course 6 – timestamp 17:27
+----------------------------------------
+-------------- SQL TASK --------------
+Change the score of customer with ID 10 to 0
+and update the country to 'UK'
+----------------------------------------
+*/
+
+-------- My-Solution --------
+
+
