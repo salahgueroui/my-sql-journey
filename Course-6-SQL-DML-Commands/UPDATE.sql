@@ -42,3 +42,6 @@ by setting their score to 0
 -------- My-Solution --------
 
 
+UPDATE customers
+SET score=0
+WHERE score is null
