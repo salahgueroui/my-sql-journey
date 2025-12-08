@@ -24,4 +24,7 @@ and update the country to 'UK'
 
 -------- My-Solution --------
 
-
+UPDATE customers
+SET SCORE = 0,
+	country='uk'
+WHERE id=10
