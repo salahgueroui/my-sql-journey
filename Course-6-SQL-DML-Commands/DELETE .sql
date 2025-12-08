@@ -8,4 +8,5 @@ Delete all customers with an ID greater than 5
 
 -------- My-Solution --------
 
-
+delete from customers
+where id > 5
