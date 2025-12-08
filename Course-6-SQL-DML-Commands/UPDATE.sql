@@ -28,3 +28,17 @@ UPDATE customers
 SET SCORE = 0,
 	country='uk'
 WHERE id=10
+
+-------------------------------------------
+/*
+Video: Course 6 – timestamp 18:25
+----------------------------------------
+-------------- SQL TASK --------------
+Update all customers with a NULL score
+by setting their score to 0
+----------------------------------------
+*/
+
+-------- My-Solution --------
+
+
