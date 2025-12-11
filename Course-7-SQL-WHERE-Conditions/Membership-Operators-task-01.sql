@@ -6,3 +6,7 @@ Retrieve all customers from either Germany OR USA.
 */
 
 ------My-solution-----
+
+select *
+from customers
+where country in ('germany','usa')
