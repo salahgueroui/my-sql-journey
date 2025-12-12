@@ -5,7 +5,7 @@ Video: Course 7 – timestamp 35:57
 Find all customers whose first name starts with 'M'.
 */
 
-------My-solution-----
+------My-solution---------
 
 select *
 from customers
