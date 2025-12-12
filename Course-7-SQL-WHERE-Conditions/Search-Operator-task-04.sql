@@ -5,7 +5,7 @@ Video: Course 7 – timestamp 38:22
 Find all customers whose first name has 'r' in the third position.
 */
 
-------My-solution-----
+------My-solution---------
 
 select *
 from customers
