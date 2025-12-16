@@ -5,7 +5,7 @@ Video: Course 7 – timestamp 37:25
 Find all customers whose first name contains 'r'.
 */
 
-------My-solution--------
+------My-solution-----------
 
 select *
 from customers
