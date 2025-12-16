@@ -5,7 +5,7 @@ Video: Course 7 – timestamp 36:42
 Find all customers whose first name ends with 'n'.
 */
 
-------My-solution-------
+------My-solution----------
 
 select *
 from customers
