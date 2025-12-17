@@ -1,14 +1,13 @@
 /*
-Video: Course 8 - timestamp 9:43
+Video: Course 8 - timestamp 13:22
 ----------------------------------------
 -------------- SQL TASK --------------
-Retrieve all data from customers and orders as separate results
+Get all customers along with their orders, but only for customers who have placed an order
 ----------------------------------------
 */
 
 -------- My-Solution --------
-
-select *
-from customers;
-select *
-from orders;
+SELECT *
+FROM customers c
+INNER JOIN orders O
+ON c.id = o.customer_id
