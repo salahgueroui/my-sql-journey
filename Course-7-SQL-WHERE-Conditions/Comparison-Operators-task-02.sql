@@ -6,7 +6,7 @@ Retrieve all customers who are NOT from Germany
 ----------------------------------------
 */
 
--------- My-Solution --------
+-------- My-Solution ----------------------
 
 select *
 from customers
