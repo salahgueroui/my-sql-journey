@@ -6,7 +6,7 @@ Find the average score for each country considering only customers with a score 
 and return only those countries with an average score greater than 430.
 */
 
-------My-solution-----
+------My-solution-------
 select country,
 	   avg(score)as avg_score
 from customers
