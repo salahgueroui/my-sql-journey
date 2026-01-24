@@ -11,6 +11,6 @@ even if there’s no match
 -------- My-Solution --------
 
 select c.id,c.first_name,o.order_id,o.sales
-from orders o
-left join customers c
+from customers c 
+full join orders o
 on c.id=o.customer_id
