@@ -11,7 +11,7 @@ without duplicates
 ----------------------------------------
 */
 
--------- My-Solution --------
+-------- My-Solution ------------
 
 
 select 'orders'as sourcetable,* from Sales.Orders
