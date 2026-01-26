@@ -14,6 +14,7 @@ without duplicates
 -------- My-Solution --------
 
 
-select * from Sales.Orders
+select 'orders'as sourcetable,* from Sales.Orders
 union
-select * from Sales.OrdersArchive
+select 'OrdersArchive' as sourcetable,* from Sales.OrdersArchive
+order by OrderID
