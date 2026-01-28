@@ -8,7 +8,7 @@ removing the first character
 ----------------------------------------
 */
 
--------- My-Solution --------
+-------- My-Solution -----------
 
 select first_name,substring(trim(first_name),2,len(first_name)) as sub_name
 from customers
