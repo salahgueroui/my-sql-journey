@@ -8,7 +8,7 @@ Convert CreationTime to DATE using CAST
 ----------------------------------------
 */
 
--------- My-Solution --------
+-------- My-Solution -------------
 
 select CreationTime,
 cast(creationtime as date)
