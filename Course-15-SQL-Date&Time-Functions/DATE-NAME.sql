@@ -10,6 +10,7 @@ For each order, display:
 - CreationTime
 - Month name
 - Weekday name
+-day name
 ----------------------------------------
 */
 
