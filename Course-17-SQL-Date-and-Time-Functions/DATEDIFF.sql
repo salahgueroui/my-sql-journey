@@ -29,3 +29,19 @@ SELECT
 FROM Sales.Orders
 GROUP BY FORMAT(OrderDate, 'MMM'), MONTH(OrderDate)
 
+/*
+Video: Course 17 – SQL Date & Time Functions
+Timestamp: 11:38
+----------------------------------------
+-------------- SQL TASK --------------
+Find the number of days between each order
+and the previous order.
+----------------------------------------
+*/
+
+-------- My-Solution --------
+
+SELECT OrderDate,
+	   LAG(OrderDate)over(order by orderdate) previous_order,
+	   DATEDIFF(day,LAG(OrderDate)over(order by orderdate),OrderDate)
+FROM Sales.Orders
