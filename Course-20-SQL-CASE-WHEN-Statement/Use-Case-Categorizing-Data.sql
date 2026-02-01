@@ -26,4 +26,4 @@ from (select OrderID,Sales,
 	end category
 	from Sales.Orders)t
 group by category
-order by sum(sales)
+order by sum(sales) desc
