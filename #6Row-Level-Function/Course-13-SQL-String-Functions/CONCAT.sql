@@ -8,7 +8,7 @@ into one column
 ----------------------------------------
 */
 
--------- My-Solution --------
+-------- My-Solution -------------
 
 select concat(first_name,',',Country) name_country
 from Customers
