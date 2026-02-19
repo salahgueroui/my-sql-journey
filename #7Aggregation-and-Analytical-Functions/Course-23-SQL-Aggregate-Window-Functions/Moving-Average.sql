@@ -11,3 +11,9 @@ for each product over time.
 
 -------- My-Solution --------
 
+select OrderID,
+	   OrderDate,
+	   ProductID,
+	   avg(Sales) over (partition by productid ) AvgSalesByProducts,
+	   avg(Sales) over (partition by productid order by orderdate ) MovingAvg
+FROM Sales.Orders
