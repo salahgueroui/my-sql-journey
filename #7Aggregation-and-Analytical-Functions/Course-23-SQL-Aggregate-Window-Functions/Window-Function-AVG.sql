@@ -50,7 +50,7 @@ than the average sales across all orders.
 */
 
 -------- My-Solution --------
-
+ 
 select *
 from(
 SELECT orderid,
