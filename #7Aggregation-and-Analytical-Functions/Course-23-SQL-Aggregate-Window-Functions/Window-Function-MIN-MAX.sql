@@ -53,3 +53,12 @@ the minimum and maximum sales amounts.
 
 -------- My-Solution --------
 
+select OrderID,
+	   OrderDate,
+	   ProductID,
+	   Sales,
+	   MAX(Sales) over() Max_Sales,
+	   MIN(Sales) over() Min_Sales,
+	   Sales-MIN(Sales) over() deviation_Min,
+	   Max(Sales) over()-Sales deviation_Max
+FROM Sales.Orders
