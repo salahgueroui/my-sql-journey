@@ -39,3 +39,17 @@ from (
 select *,MAX(Salary) over() highest_Salary
 from Sales.Employees
 )t where Salary = highest_Salary
+
+/*
+Video: Course 23 – SQL Aggregate Window Functions
+Topic: MIN() & MAX() OVER()
+Timestamp: 43:32
+----------------------------------------
+-------------- SQL TASK --------------
+Calculate the deviation of each sale from both
+the minimum and maximum sales amounts.
+----------------------------------------
+*/
+
+-------- My-Solution --------
+
