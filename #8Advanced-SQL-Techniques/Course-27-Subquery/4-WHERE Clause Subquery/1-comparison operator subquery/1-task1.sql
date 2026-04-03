@@ -14,3 +14,4 @@ average price of all products.
 select ProductID,Product,Price 
 from sales.Products
 where price > (select avg(price) from Sales.Products)
+
