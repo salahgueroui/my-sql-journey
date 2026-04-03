@@ -10,6 +10,7 @@ Show all customer details and find the total orders for each customer.
 
 -------- My-Solution --------
 
+#Correlated Subqueries
 select *,(select count(OrderID)
 		  from Sales.Orders o
 		  where o.CustomerID=c.CustomerID)as Total_Order
