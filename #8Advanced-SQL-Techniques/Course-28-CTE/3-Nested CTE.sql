@@ -37,6 +37,8 @@ from seles_per_customer )
 
 select * from segment_customer
 
+ 
+
 
  
 
