@@ -11,10 +11,10 @@ Find the running total of sales for each month
 
 WITH spm AS (
     SELECT 
-        MONTH(ShipDate) AS month,
+        MONTH(OrderDate) AS month,
         SUM(Sales) AS sales
     FROM sales.Orders
-    GROUP BY MONTH(ShipDate)
+    GROUP BY MONTH(OrderDate)
 ),
 mom as 
 (SELECT 
@@ -23,3 +23,4 @@ mom as
 FROM spm)
 
 select * from mom
+
