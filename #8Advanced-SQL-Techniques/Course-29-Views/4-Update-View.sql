@@ -1,4 +1,5 @@
--- CREATE OR ALTER VIEW: updates an existing view or creates it if it doesn't exist.
+-- CREATE OR ALTER VIEW: updates an existing view 
+-- or creates it if it doesn't exist.
 CREATE OR ALTER VIEW Sales.V_Monthly_Summary AS
 (
 SELECT 
