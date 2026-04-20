@@ -1,6 +1,6 @@
 --step 1: load data into temp table
 select *
-into #tempOrders
+into #tempOrders --create a temp table called tempOrders
 from sales.orders
 
 --step 2: transform data in temp table
