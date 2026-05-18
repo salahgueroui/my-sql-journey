@@ -16,6 +16,10 @@ where lastname = 'anna'
 create index idx_DBCustomers_FirstName 
 on sales.DBCustomers (FirstName)
 
-
+select * from sales.DBCustomers
+where country = 'US' and score > 100
+--Composite Index on sales.DBCustomers table on FirstName and LastName columns
+create index idx_DBCustomers_CountryScore 
+on sales.DBCustomers (Country, Score)
 
 
