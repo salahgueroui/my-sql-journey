@@ -1,0 +1,2 @@
+drop index idx_Columnstore_CS
+on sales.DBCustomers
