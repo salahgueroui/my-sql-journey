@@ -6,3 +6,8 @@ alter database SalesDB add filegroup FG_2026;
 
 --remove filegroup
 alter database SalesDB remove filegroup FG_2023
+
+--queru lists all filegroups 
+select *
+from sys.filegroups
+where type='FG'
