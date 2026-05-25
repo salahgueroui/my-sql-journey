@@ -7,3 +7,5 @@ BEGIN
     FROM Sales.Customers
     WHERE Country = 'USA';
 END;
+--execute the stored procedure to see the results
+exec GetCustomerSummary
